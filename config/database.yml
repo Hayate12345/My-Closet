@@ -14,12 +14,13 @@ default: &default
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password:
+  password: root
   host: localhost
+  socket: /Applications/MAMP/tmp/mysql/mysql.sock
 
 development:
   <<: *default
-  database: My_Closet_development
+  database: my_closet
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
