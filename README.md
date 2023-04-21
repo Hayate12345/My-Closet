@@ -1,25 +1,10 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # My-Closet
+
+*リポジトリのコピー方法
+1、任意のフォルダにGit-Cloneする。
+2、ターミナルでbundle install を実行する。
+3、MAMPを起動してphpmyadminにアクセスする。
+4、DBを新規作成し、my_closetという名前のDBを作成する。
+5、rails db:migrateを実行
+
+
